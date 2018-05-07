@@ -1,0 +1,12 @@
+GetBBVideoInfo.py
+获取UP主所有视频信息
+
+DownloadVideo.py
+PC端下载视频，目前无法获取视频的sign值，该值目前是一个XHR请求的必须参数
+暂时有两种思路获取sign:
+1.分析JS代码找到sign的生成算法（难度高）
+2.用phantomjs请求视频的HTML，获取XHR请求，目前phantomjs的page.onResourceReceived中
+只能获取到请求视频的HTML主页和相关的js请求、css请求，无法获取XHR请求（待进一步分析）
+
+移动端未抓包分析，推测也需要sign值，待确认
+
