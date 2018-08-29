@@ -1,9 +1,7 @@
 # encoding: utf-8
 """
 date:20180715
-function:解析B站视频播放流程，下载B站视频，本次抓包遗留一个问题：无法直接获取sign参数，
-1.尝试用phantomjs模拟打开视频页面，抓取加载过程中的所有HTTP请求，未成功；
-2尝试分析页面的js请求，获取sign参数的算法，可以使用execjs库加载js函数，算出sign值（还未实践）
+function:解析B站视频播放流程，下载B站视频，抓包分析发现不需要sign参数了
 """
 import urllib2
 import ssl
@@ -64,19 +62,23 @@ class GetBiVideo:
         gzipped = response_html.headers.get('Content-Encoding')
         if gzipped:
             response_str = zlib.decompress(response_str, 16 + zlib.MAX_WBITS)
-        print response_str.decode("utf-8")
+        #print response_str.decode("utf-8")
         doc_info = pq(response_str.decode("utf-8"))
 
-        # self.video_name = doc_info("title").text()
-        # self.video_name = self.video_name.replace("/","")
-        # self.video_name = self.video_name.replace("\\", "")
-        # self.video_name = self.video_name + ".flv"
-        # print "download:" + self.video_name
-        # json_info = doc_info.items("script")
-        # for item in json_info:
-        #     result = re.search(r'"cid":(\d*),', item.text())
-        #     if result:
-        #         self.video_cid = result.group(1)
+        self.video_name = doc_info("title").text()
+        self.video_name = self.video_name.replace("/","")
+        self.video_name = self.video_name.replace("\\", "")
+        self.video_name = self.video_name + ".flv"
+        print "download:" + self.video_name
+        json_info = doc_info.items("script")
+
+        for item in json_info:
+            result = re.search(r'window.__playinfo__={(.*)}', item.text())
+
+            if result:
+                t_dict = result.group(1)
+                print t_dict
+
         #         self.info_url = "https://interface.bilibili.com/v2/playurl?cid=" + self.video_cid + "&appkey=84956560bc028eb7&otype=json&type=&quality=64&qn=64&sign=d141e08092dc06076f13f1fe2bbe95d5"
         # print self.info_url
         # #step2:from api get dl_url

@@ -1,0 +1,107 @@
+[INFO  - 2018-06-03T10:40:42.617Z] GhostDriver - Main - running on port 52640
+[INFO  - 2018-06-03T10:40:46.562Z] Session [92dc4580-671a-11e8-9aee-b320d627c3b5] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.1) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-06-03T10:40:46.562Z] Session [92dc4580-671a-11e8-9aee-b320d627c3b5] - page.customHeaders:  - {}
+[INFO  - 2018-06-03T10:40:46.562Z] Session [92dc4580-671a-11e8-9aee-b320d627c3b5] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-7-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-06-03T10:40:46.562Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 92dc4580-671a-11e8-9aee-b320d627c3b5
+[ERROR - 2018-06-03T10:40:49.857Z] Session [92dc4580-671a-11e8-9aee-b320d627c3b5] - page.onError - msg: /mm/tb-page-peel/0.0.5/index is not loaded! can not find module in path : https://g.alicdn.com/mm/tb-page-peel/0.0.5/index-min.js
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-06-03T10:40:49.858Z] Session [92dc4580-671a-11e8-9aee-b320d627c3b5] - page.onError - stack:
+  (anonymous function) (https://g.alicdn.com/??kissy/k/6.2.4/seed-min.js,kg/global-util/1.0.7/index-min.js,tb/tracker/4.2.1/p/index/index.js,kg/tb-nav/2.5.3/index-min.js,secdev/sufei_data/3.3.5/index.js:5)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-06-03T10:40:49.934Z] Session [92dc4580-671a-11e8-9aee-b320d627c3b5] - page.onError - msg: kg/search-suggest/6.3.1/new_suggest.css is not loaded! can not find module in path : https://g.alicdn.com/kg/??search-suggest/6.3.1/new_suggest-min.css
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-06-03T10:40:49.935Z] Session [92dc4580-671a-11e8-9aee-b320d627c3b5] - page.onError - stack:
+  (anonymous function) (https://g.alicdn.com/??kissy/k/6.2.4/seed-min.js,kg/global-util/1.0.7/index-min.js,tb/tracker/4.2.1/p/index/index.js,kg/tb-nav/2.5.3/index-min.js,secdev/sufei_data/3.3.5/index.js:5)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-06-03T10:40:49.935Z] Session [92dc4580-671a-11e8-9aee-b320d627c3b5] - page.onError - msg: kg/search-suggest/6.3.1/index is not loaded! can not find module in path : https://g.alicdn.com/kg/??search-suggest/6.3.1/index-min.js,search-suggest/6.3.1/plugin/history-min.js,search-suggest/6.3.1/plugin/cloud-min.js,search-suggest/6.3.1/plugin/tab-min.js,search-suggest/6.3.1/plugin/history-magic-min.js,search-suggest/6.3.1/plugin/imgsearch-min.js,search-suggest/6.3.1/theme/pailitao/index-min.js
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-06-03T10:40:49.936Z] Session [92dc4580-671a-11e8-9aee-b320d627c3b5] - page.onError - stack:
+  (anonymous function) (https://g.alicdn.com/??kissy/k/6.2.4/seed-min.js,kg/global-util/1.0.7/index-min.js,tb/tracker/4.2.1/p/index/index.js,kg/tb-nav/2.5.3/index-min.js,secdev/sufei_data/3.3.5/index.js:5)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-06-03T10:40:49.936Z] Session [92dc4580-671a-11e8-9aee-b320d627c3b5] - page.onError - msg: kg/search-suggest/6.3.1/plugin/history is not loaded! can not find module in path : https://g.alicdn.com/kg/??search-suggest/6.3.1/index-min.js,search-suggest/6.3.1/plugin/history-min.js,search-suggest/6.3.1/plugin/cloud-min.js,search-suggest/6.3.1/plugin/tab-min.js,search-suggest/6.3.1/plugin/history-magic-min.js,search-suggest/6.3.1/plugin/imgsearch-min.js,search-suggest/6.3.1/theme/pailitao/index-min.js
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-06-03T10:40:49.936Z] Session [92dc4580-671a-11e8-9aee-b320d627c3b5] - page.onError - stack:
+  (anonymous function) (https://g.alicdn.com/??kissy/k/6.2.4/seed-min.js,kg/global-util/1.0.7/index-min.js,tb/tracker/4.2.1/p/index/index.js,kg/tb-nav/2.5.3/index-min.js,secdev/sufei_data/3.3.5/index.js:5)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-06-03T10:40:49.937Z] Session [92dc4580-671a-11e8-9aee-b320d627c3b5] - page.onError - msg: kg/search-suggest/6.3.1/plugin/cloud is not loaded! can not find module in path : https://g.alicdn.com/kg/??search-suggest/6.3.1/index-min.js,search-suggest/6.3.1/plugin/history-min.js,search-suggest/6.3.1/plugin/cloud-min.js,search-suggest/6.3.1/plugin/tab-min.js,search-suggest/6.3.1/plugin/history-magic-min.js,search-suggest/6.3.1/plugin/imgsearch-min.js,search-suggest/6.3.1/theme/pailitao/index-min.js
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-06-03T10:40:49.937Z] Session [92dc4580-671a-11e8-9aee-b320d627c3b5] - page.onError - stack:
+  (anonymous function) (https://g.alicdn.com/??kissy/k/6.2.4/seed-min.js,kg/global-util/1.0.7/index-min.js,tb/tracker/4.2.1/p/index/index.js,kg/tb-nav/2.5.3/index-min.js,secdev/sufei_data/3.3.5/index.js:5)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-06-03T10:40:49.937Z] Session [92dc4580-671a-11e8-9aee-b320d627c3b5] - page.onError - msg: kg/search-suggest/6.3.1/plugin/tab is not loaded! can not find module in path : https://g.alicdn.com/kg/??search-suggest/6.3.1/index-min.js,search-suggest/6.3.1/plugin/history-min.js,search-suggest/6.3.1/plugin/cloud-min.js,search-suggest/6.3.1/plugin/tab-min.js,search-suggest/6.3.1/plugin/history-magic-min.js,search-suggest/6.3.1/plugin/imgsearch-min.js,search-suggest/6.3.1/theme/pailitao/index-min.js
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-06-03T10:40:49.937Z] Session [92dc4580-671a-11e8-9aee-b320d627c3b5] - page.onError - stack:
+  (anonymous function) (https://g.alicdn.com/??kissy/k/6.2.4/seed-min.js,kg/global-util/1.0.7/index-min.js,tb/tracker/4.2.1/p/index/index.js,kg/tb-nav/2.5.3/index-min.js,secdev/sufei_data/3.3.5/index.js:5)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-06-03T10:40:49.938Z] Session [92dc4580-671a-11e8-9aee-b320d627c3b5] - page.onError - msg: kg/search-suggest/6.3.1/plugin/history-magic is not loaded! can not find module in path : https://g.alicdn.com/kg/??search-suggest/6.3.1/index-min.js,search-suggest/6.3.1/plugin/history-min.js,search-suggest/6.3.1/plugin/cloud-min.js,search-suggest/6.3.1/plugin/tab-min.js,search-suggest/6.3.1/plugin/history-magic-min.js,search-suggest/6.3.1/plugin/imgsearch-min.js,search-suggest/6.3.1/theme/pailitao/index-min.js
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-06-03T10:40:49.938Z] Session [92dc4580-671a-11e8-9aee-b320d627c3b5] - page.onError - stack:
+  (anonymous function) (https://g.alicdn.com/??kissy/k/6.2.4/seed-min.js,kg/global-util/1.0.7/index-min.js,tb/tracker/4.2.1/p/index/index.js,kg/tb-nav/2.5.3/index-min.js,secdev/sufei_data/3.3.5/index.js:5)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-06-03T10:40:49.938Z] Session [92dc4580-671a-11e8-9aee-b320d627c3b5] - page.onError - msg: kg/search-suggest/6.3.1/plugin/imgsearch is not loaded! can not find module in path : https://g.alicdn.com/kg/??search-suggest/6.3.1/index-min.js,search-suggest/6.3.1/plugin/history-min.js,search-suggest/6.3.1/plugin/cloud-min.js,search-suggest/6.3.1/plugin/tab-min.js,search-suggest/6.3.1/plugin/history-magic-min.js,search-suggest/6.3.1/plugin/imgsearch-min.js,search-suggest/6.3.1/theme/pailitao/index-min.js
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-06-03T10:40:49.939Z] Session [92dc4580-671a-11e8-9aee-b320d627c3b5] - page.onError - stack:
+  (anonymous function) (https://g.alicdn.com/??kissy/k/6.2.4/seed-min.js,kg/global-util/1.0.7/index-min.js,tb/tracker/4.2.1/p/index/index.js,kg/tb-nav/2.5.3/index-min.js,secdev/sufei_data/3.3.5/index.js:5)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-06-03T10:40:49.939Z] Session [92dc4580-671a-11e8-9aee-b320d627c3b5] - page.onError - msg: kg/search-suggest/6.3.1/theme/pailitao/index is not loaded! can not find module in path : https://g.alicdn.com/kg/??search-suggest/6.3.1/index-min.js,search-suggest/6.3.1/plugin/history-min.js,search-suggest/6.3.1/plugin/cloud-min.js,search-suggest/6.3.1/plugin/tab-min.js,search-suggest/6.3.1/plugin/history-magic-min.js,search-suggest/6.3.1/plugin/imgsearch-min.js,search-suggest/6.3.1/theme/pailitao/index-min.js
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-06-03T10:40:49.939Z] Session [92dc4580-671a-11e8-9aee-b320d627c3b5] - page.onError - stack:
+  (anonymous function) (https://g.alicdn.com/??kissy/k/6.2.4/seed-min.js,kg/global-util/1.0.7/index-min.js,tb/tracker/4.2.1/p/index/index.js,kg/tb-nav/2.5.3/index-min.js,secdev/sufei_data/3.3.5/index.js:5)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-06-03T10:41:08.661Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1528022468658
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2018-06-03T10:45:42.626Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-03T10:50:42.633Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-03T10:55:42.636Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-03T11:00:42.643Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-03T11:05:42.649Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-03T11:10:42.654Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-03T11:15:42.660Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-03T11:20:42.664Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-03T11:25:42.672Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-03T11:30:42.675Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-03T11:35:42.680Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-03T11:40:42.686Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-03T11:45:42.692Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-03T11:50:42.698Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-03T11:55:42.704Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-03T12:00:42.709Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-03T12:05:42.719Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-03T12:10:42.720Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-03T12:15:42.726Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-03T12:20:42.731Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-03T12:25:42.738Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-03T12:30:42.741Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-03T12:35:42.750Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-03T12:40:42.753Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-03T12:45:42.762Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-03T12:50:42.763Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-03T12:55:42.769Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-03T13:00:42.775Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-03T14:07:11.157Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-03T14:12:10.525Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-03T14:17:10.536Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-03T14:22:10.536Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-03T14:27:10.542Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-03T14:32:10.542Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-03T14:37:10.552Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-06-03T14:42:10.558Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
