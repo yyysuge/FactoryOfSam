@@ -43,8 +43,8 @@
 
 九、添加远程库
 	1.首先本地有一个版本库，且已经初始化好了
-	2.在本地的仓库下运行命令：git remote add origin git@github.com:michaelliao/learngit.git
-	3.现在就可以把本地库的内容推送到远程库：git push -u origin master
+	2.在本地的仓库下运行命令：git remote add origin git@github.com:michaelliao/learngit.git(建立本地仓库和远程仓库的关联)
+	3.现在就可以把本地库的内容推送到远程库：git push -u origin master （将本地仓库提交推到远程仓库的master分支）
 	用git push命令，实际上是把当前分支master推送到远程。
 	由于远程库是空的，我们第一次推送master分支时，加上了-u参数，
 	Git不但会把本地的master分支内容推送的远程新的master分支，
